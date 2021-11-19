@@ -1,0 +1,56 @@
+.app-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 87%;
+  padding-top: 32px;
+  padding-right: 12px;
+  padding-bottom: 32px;
+  padding-left: 12px;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 90%;
+    max-width: 1140px;
+    padding: 32px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #cb8805;
+  font-size: 32px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+
+.faqs-list {
+  padding: 0px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .faqs-list {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .faqs-list {
+    width: 80%;
+  }
+}
